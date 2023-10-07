@@ -6,6 +6,7 @@
   --DarkGrayishBlue: hsl(210, 10%, 33%);
   --GrayishBlue: hsl(201, 11%, 66%);
 }
+
 * {
   box-sizing: border-box;
 }
@@ -95,22 +96,22 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  text-align: center; 
+  text-align: center;
   background-color: hsl(0, 0%, 93%);
 }
 
-.links{
-  display:flex;
- flex-direction: column;
-  justify-content:center;
-  gap:2rem;
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
   color: var(--DarkGrayishBlue);
   font-weight: 600;
 }
-footer > img:not(.socals){
+footer > img:not(.socals) {
   width: 15vw;
 }
-.socals{
+.socals {
   display: flex;
-  gap:3rem
+  gap: 3rem;
 }
