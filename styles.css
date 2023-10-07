@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+:root {
+  --Cyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+  --DarkGrayishBlue: hsl(210, 10%, 33%);
+  --GrayishBlue: hsl(201, 11%, 66%);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 0.83rem;
+  font-weight: 400;
+  background-image: url("./images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: var(--GrayishBlue);
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: var(--DarkGrayishBlue);
+  margin-top: 2rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  margin-top: 6rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.mainLogo {
+  margin: auto;
+  padding: 5rem;
+}
+
+button {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+}
+
+.ios {
+  background-color: var(--Cyan);
+  box-shadow: 0 0.8rem 4rem rgba(38, 186, 164, 0.3);
+  border-bottom: 0.3rem solid hsl(171, 69%, 35%);
+}
+
+.mac {
+  background-color: var(--LightBlue);
+  box-shadow: 0 0.8rem 4rem var(--GrayishBlue);
+  border-bottom: 0.3rem solid hsl(233, 100%, 39%);
+  margin-bottom: 5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+img:not(.mainLogo) {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sm-icon {
+  width: 3.5rem;
+  align-self: center;
+  margin: 0;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 40%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center; 
+  background-color: hsl(0, 0%, 93%);
+}
+
+.links{
+  display:flex;
+ flex-direction: column;
+  justify-content:center;
+  gap:2rem;
+  color: var(--DarkGrayishBlue);
+  font-weight: 600;
+}
+footer > img:not(.socals){
+  width: 15vw;
+}
+.socals{
+  display: flex;
+  gap:3rem
+}
