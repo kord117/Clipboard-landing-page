@@ -184,8 +184,20 @@ footer > img:not(.socals) {
     justify-content: space-evenly;
   }
   footer > img:not(.socals) {
-    background-color: black;
     width: 4rem;
     height: auto;
+  }
+  footer .links{
+  display: flex;
+  flex-direction: row;
+    justify-content:space-evenly ;
+  }
+  
+  footer > .links > div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:1rem;
+    align-items: flex-start;
   }
 }
