@@ -79,6 +79,10 @@ img:not(.mainLogo) {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+.dsk img{
+  width: 80vw;
+  height: auto;
+}
 
 .sm-icon {
   width: 3.5rem;
