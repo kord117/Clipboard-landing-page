@@ -57,6 +57,9 @@ button {
   width: 100%;
 }
 
+button:hover{
+  opacity: 0.5;
+}
 .ios {
   background-color: var(--Cyan);
   box-shadow: 0 0.8rem 4rem rgba(38, 186, 164, 0.3);
@@ -106,20 +109,27 @@ footer {
   background-color: hsl(0, 0%, 93%);
 }
 
-.links {
+.links span{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 2rem;
+padding-bottom: 2rem;
   color: var(--DarkGrayishBlue);
   font-weight: 600;
 }
+.links span:hover{
+  color: var(--Cyan);
+}
+.socals img:hover{
+  filter: opacity(0.5) drop-shadow(0 0 var(--Cyan));
+}
+
 footer > img:not(.socals) {
   width: 15vw;
 }
 .socals {
   display: flex;
   gap: 3rem;
+  margin-top:-2rem;
 }
 @media only screen and (min-width: 600px) {
   body {
